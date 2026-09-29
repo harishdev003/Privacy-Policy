@@ -5,7 +5,7 @@
   "maintenance_mode": true,
   "maintenance_title": "Campus Portal Maintenance",
   "maintenance_message": "The campus portal is currently undergoing scheduled system updates. Services will resume shortly.",
-  "min_required_version": "1.0.0",
+  "min_required_version": "5.0.0",
   "force_update_url": "https://play.google.com/store/apps/details?id=com.auxilium_suite.late_attendance",
   "support_contact": "it-support@institute.edu",
   "announcements": [
