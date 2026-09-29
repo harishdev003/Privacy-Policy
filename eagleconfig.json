@@ -2,7 +2,7 @@
   "api_protocol": "https",
   "api_domain": "auxiliumwebsitedev.techselva.online",
   "public_access_enabled": true,
-  "maintenance_mode": true,
+  "maintenance_mode": false,
   "maintenance_title": "Campus Portal Maintenance",
   "maintenance_message": "The campus portal is currently undergoing scheduled system updates. Services will resume shortly.",
   "min_required_version": "5.0.0",
