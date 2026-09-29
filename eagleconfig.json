@@ -1,7 +1,7 @@
 {
   "api_protocol": "https",
   "api_domain": "auxiliumwebsitedev.techselva.online",
-  "public_access_enabled": true,
+  "public_access_enabled": false,
   "maintenance_mode": false,
   "scheduled_maintenance_enabled": false,
   "maintenance_from": "2026-09-29T13:30:00+05:30",
