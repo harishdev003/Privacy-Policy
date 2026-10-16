@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Auxilium ERP Suite & Institutional Apps</title>
+    <meta name="description" content="Official Google Play Store verified Privacy Policy for Auxilium ERP Suite (com.auxilium_suite.harish_selvam) and Auxilium institutional applications, Auxilium College (Autonomous), Vellore.">
+    <meta name="keywords" content="Auxilium ERP Suite, Auxilium College, Privacy Policy, Google Play, Student Data Privacy, com.auxilium_suite.harish_selvam">
+    <meta name="author" content="Auxilium College (Autonomous) - IT Department">
+    <link rel="canonical" href="https://harishdev003.github.io/Privacy-Policy/">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Privacy Policy - Auxilium ERP Suite">
+    <meta property="og:description" content="Official Institutional Privacy Policy & Google Play Compliance for Auxilium College Mobile Applications.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://harishdev003.github.io/Privacy-Policy/">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #007791;
+            --primary-dark: #005668;
+            --primary-light: #E6F4F7;
+            --primary-gradient: linear-gradient(135deg, #007791 0%, #00A3BF 100%);
+            --accent: #00A3BF;
+            --accent-glow: rgba(0, 163, 191, 0.2);
+            --text-main: #0F172A;
+            --text-muted: #64748B;
+            --text-light: #94A3B8;
+            --bg-page: #F8FAFC;
+            --bg-card: #FFFFFF;
+            --bg-card-alt: #F1F5F9;
+            --border: #E2E8F0;
+            --border-hover: #CBD5E1;
+            --success: #10B981;
+            --success-bg: #ECFDF5;
+            --warning: #F59E0B;
+            --warning-bg: #FEF3C7;
+            --info: #3B82F6;
+            --info-bg: #EFF6FF;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -2px rgba(0,0,0,0.05);
+            --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.03);
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 20px;
+            --radius-full: 9999px;
+            --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        [data-theme="dark"] {
+            --text-main: #F8FAFC;
+            --text-muted: #94A3B8;
+            --text-light: #64748B;
+            --bg-page: #0B0F19;
+            --bg-card: #131B2E;
+            --bg-card-alt: #1E293B;
+            --border: #1E293B;
+            --border-hover: #334155;
+            --primary-light: rgba(0, 119, 145, 0.18);
+            --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.35);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-page);
+            color: var(--text-main);
+            line-height: 1.7;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Top Bar */
+        .top-navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            background: rgba(255, 255, 255, 0.85);
+            border-bottom: 1px solid var(--border);
+            transition: var(--transition);
+        }
+
+        [data-theme="dark"] .top-navbar {
+            background: rgba(19, 27, 46, 0.85);
+        }
+
+        .nav-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 14px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+
+        .brand-block {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .brand-logo-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: var(--radius-md);
+            background: var(--primary-gradient);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 800;
+            font-size: 18px;
+            box-shadow: 0 4px 12px var(--accent-glow);
+        }
+
+        .brand-text-name {
+            font-weight: 800;
+            font-size: 17px;
+            letter-spacing: -0.4px;
+            color: var(--text-main);
+        }
+
+        .brand-text-sub {
+            font-size: 11px;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .theme-toggle, .print-btn {
+            background: var(--bg-card-alt);
+            border: 1px solid var(--border);
+            color: var(--text-main);
+            padding: 8px 14px;
+            border-radius: var(--radius-full);
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: var(--transition);
+        }
+
+        .theme-toggle:hover, .print-btn:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            transform: translateY(-1px);
+        }
+
+        /* Layout Container */
+        .page-container {
+            max-width: 1000px;
+            margin: 32px auto 60px;
+            padding: 0 24px;
+        }
+
+        /* App Switcher Tabs */
+        .app-switcher-wrapper {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 8px;
+            display: flex;
+            gap: 8px;
+            margin-bottom: 28px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .app-tab-btn {
+            flex: 1;
+            padding: 14px 18px;
+            border: none;
+            background: transparent;
+            color: var(--text-muted);
+            border-radius: var(--radius-md);
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: var(--transition);
+        }
+
+        .app-tab-btn:hover {
+            background: var(--bg-card-alt);
+            color: var(--text-main);
+        }
+
+        .app-tab-btn.active {
+            background: var(--primary);
+            color: #FFFFFF;
+            box-shadow: 0 4px 14px rgba(0, 119, 145, 0.35);
+        }
+
+        .app-tab-badge {
+            font-size: 10px;
+            padding: 3px 8px;
+            border-radius: var(--radius-full);
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .app-tab-btn.active .app-tab-badge {
+            background: rgba(255, 255, 255, 0.25);
+            color: #FFFFFF;
+        }
+
+        .app-tab-btn:not(.active) .app-tab-badge {
+            background: var(--bg-card-alt);
+            color: var(--text-muted);
+        }
+
+        /* Hero Header Card */
+        .hero-card {
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-lg);
+            padding: 44px;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 28px;
+        }
+
+        .hero-card::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--primary-gradient);
+        }
+
+        .badge-row {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            border-radius: var(--radius-full);
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+        }
+
+        .badge-primary {
+            background: var(--primary-light);
+            color: var(--primary);
+        }
+
+        .badge-success {
+            background: var(--success-bg);
+            color: var(--success);
+        }
+
+        .badge-info {
+            background: var(--info-bg);
+            color: var(--info);
+        }
+
+        .hero-title {
+            font-size: 34px;
+            font-weight: 800;
+            letter-spacing: -0.8px;
+            margin-bottom: 8px;
+            color: var(--text-main);
+        }
+
+        .hero-subtitle {
+            font-size: 16px;
+            color: var(--text-muted);
+            font-weight: 500;
+            max-width: 720px;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 14px;
+            margin-top: 28px;
+            background: var(--bg-card-alt);
+            padding: 16px 20px;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border);
+        }
+
+        .meta-item {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .meta-item strong {
+            display: block;
+            color: var(--text-main);
+            font-size: 14px;
+            margin-top: 2px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* Search & Filter Bar */
+        .search-container {
+            margin-bottom: 24px;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 14px 20px 14px 44px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            font-family: inherit;
+            font-size: 14.5px;
+            color: var(--text-main);
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            pointer-events: none;
+        }
+
+        /* Content Sections */
+        .section-card {
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-sm);
+            padding: 36px;
+            margin-bottom: 24px;
+            transition: var(--transition);
+        }
+
+        .section-card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--border-hover);
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 18px;
+        }
+
+        .section-num {
+            width: 34px;
+            height: 34px;
+            background: var(--primary-light);
+            color: var(--primary);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 15px;
+            flex-shrink: 0;
+        }
+
+        .section-title {
+            font-size: 21px;
+            font-weight: 700;
+            letter-spacing: -0.4px;
+            color: var(--text-main);
+        }
+
+        p {
+            font-size: 15px;
+            color: var(--text-muted);
+            margin-bottom: 14px;
+            line-height: 1.75;
+        }
+
+        strong.highlight {
+            color: var(--text-main);
+        }
+
+        ul.points-list {
+            list-style: none;
+            margin: 16px 0;
+        }
+
+        ul.points-list li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 12px;
+            font-size: 14.5px;
+            color: var(--text-muted);
+            line-height: 1.65;
+        }
+
+        ul.points-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            top: 1px;
+            color: var(--primary);
+            font-weight: 800;
+            font-size: 15px;
+        }
+
+        ul.points-list li strong {
+            color: var(--text-main);
+        }
+
+        /* Callout Box */
+        .callout-box {
+            background: var(--primary-light);
+            border-left: 4px solid var(--primary);
+            padding: 16px 20px;
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+            margin: 20px 0;
+            font-size: 14px;
+            color: var(--text-main);
+        }
+
+        .callout-box.security {
+            background: var(--success-bg);
+            border-left-color: var(--success);
+        }
+
+        .callout-box.warning {
+            background: var(--warning-bg);
+            border-left-color: var(--warning);
+        }
+
+        /* Compliance Grid */
+        .compliance-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        .compliance-pill {
+            background: var(--bg-card-alt);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 16px 18px;
+        }
+
+        .compliance-pill-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .compliance-pill-desc {
+            font-size: 12.5px;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        /* Contact Details Card */
+        .contact-card {
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border);
+            padding: 36px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .contact-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .contact-row:last-child {
+            border-bottom: none;
+        }
+
+        .contact-icon {
+            color: var(--primary);
+            font-size: 18px;
+            width: 24px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .contact-label {
+            font-size: 13px;
+            color: var(--text-muted);
+            width: 140px;
+            font-weight: 600;
+        }
+
+        .contact-value {
+            font-size: 14px;
+            color: var(--text-main);
+            font-weight: 500;
+            flex: 1;
+        }
+
+        .contact-value a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-value a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .footer p {
+            font-size: 13px;
+            margin-bottom: 6px;
+        }
+
+        /* Tab Content Display */
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Print Media */
+        @media print {
+            .top-navbar, .app-switcher-wrapper, .search-container, .theme-toggle, .print-btn {
+                display: none !important;
+            }
+            body {
+                background: #FFFFFF !important;
+                color: #000000 !important;
+                padding: 0 !important;
+            }
+            .hero-card, .section-card, .contact-card {
+                box-shadow: none !important;
+                border: 1px solid #CCCCCC !important;
+                break-inside: avoid;
+            }
+            .tab-content {
+                display: block !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-card {
+                padding: 26px 20px;
+            }
+            .hero-title {
+                font-size: 26px;
+            }
+            .section-card {
+                padding: 24px 18px;
+            }
+            .app-tab-btn {
+                font-size: 12.5px;
+                padding: 10px 8px;
+            }
+            .contact-row {
+                flex-direction: column;
+                gap: 4px;
+            }
+            .contact-label {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Sticky Header -->
+    <header class="top-navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-block">
+                <div class="brand-logo-icon">A</div>
+                <div>
+                    <div class="brand-text-name">Auxilium College (Autonomous)</div>
+                    <div class="brand-text-sub">Campus IT Policies & Transparency</div>
+                </div>
+            </a>
+            <div class="nav-actions">
+                <button class="print-btn" onclick="window.print()" title="Print or save as PDF">
+                    🖨️ <span>Print Policy</span>
+                </button>
+                <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Switch dark/light mode">
+                    🌙 <span>Dark</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-container">
+
+        <!-- App Switcher Tabs -->
+        <div class="app-switcher-wrapper">
+            <button class="app-tab-btn active" id="tabBtnErp" onclick="switchApp('erp')">
+                <span>📱 Auxilium ERP Suite</span>
+                <span class="app-tab-badge">Primary App</span>
+            </button>
+            <button class="app-tab-btn" id="tabBtnLate" onclick="switchApp('late')">
+                <span>🔍 Auxilium Late Attendance</span>
+                <span class="app-tab-badge">Scanner App</span>
+            </button>
+        </div>
+
+        <!-- =================================================================== -->
+        <!-- TAB 1: AUXILIUM ERP SUITE (com.auxilium_suite.harish_selvam) -->
+        <!-- =================================================================== -->
+        <div id="contentErp" class="tab-content active">
+
+            <!-- Hero Header Card -->
+            <section class="hero-card">
+                <div class="badge-row">
+                    <span class="badge badge-primary">Official Institutional Policy</span>
+                    <span class="badge badge-success">Google Play Verified Compliance</span>
+                    <span class="badge badge-info">Zero Commercial Ads & Trackers</span>
+                </div>
+                <h1 class="hero-title">Privacy Policy — Auxilium ERP Suite</h1>
+                <p class="hero-subtitle">
+                    Comprehensive user data, device permission, security, and institutional confidentiality standards for students, faculty, and administrative staff.
+                </p>
+
+                <div class="meta-grid">
+                    <div class="meta-item">
+                        Application Name:
+                        <strong>Auxilium ERP Suite</strong>
+                    </div>
+                    <div class="meta-item">
+                        Package ID:
+                        <strong>com.auxilium_suite.harish_selvam</strong>
+                    </div>
+                    <div class="meta-item">
+                        Governing Institution:
+                        <strong>Auxilium College (Autonomous)</strong>
+                    </div>
+                    <div class="meta-item">
+                        Effective Date:
+                        <strong>October 2026 (v1.0.0)</strong>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Search Bar -->
+            <div class="search-container">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="policySearchErp" class="search-input" placeholder="Search policy sections (e.g. Camera, Biometrics, Data Deletion, HTTPS)..." onkeyup="filterSections('contentErp', this.value)">
+            </div>
+
+            <!-- Section 1: Introduction -->
+            <article class="section-card searchable-section">
+                <div class="section-header">
+                    <div class="section-num">1</div>
+                    <h2 class="section-title">Introduction & Institutional Scope</h2>
+                </div>
+                <p>
+                    <strong>Auxilium ERP Suite</strong> (Package: <code style="color:var(--primary); font-weight:700;">com.auxilium_suite.harish_selvam</code>) is the official mobile client designed exclusively for the students, faculty members, researchers, and administrative personnel of <strong>Auxilium College (Autonomous)</strong>, Vellore, Tamil Nadu, India.
+                </p>
+                <p>
+                    The application provides a high-performance, secure native shell for the institutional ERP campus portal. It streamlines academic workflows—including attendance tracking, fee receipts, examination results, timetable notices, internal evaluations, and document submissions.
+                </p>
+                <div class="callout-box">
+                    <strong>Institutional Autonomy Notice:</strong> All campus records, student credentials, and evaluation metrics are administered under the academic statutes of Auxilium College (Autonomous) and affiliated university guidelines.
+                </div>
+            </article>
+
+            <!-- Section 2: Device Permissions & Purpose -->
+            <article class="section-card searchable-section">
+                <div class="section-header">
+                    <div class="section-num">2</div>
+                    <h2 class="section-title">Device Permissions & Transparent Usage</h2>
+                </div>
+                <p>
+                    In accordance with Google Play's User Data and Permission policies, the application requests only runtime hardware permissions essential for specific academic features:
+                </p>
+                <ul class="points-list">
+                    <li>
+                        <strong>Camera (<code style="font-size:12.5px;">android.permission.CAMERA</code>):</strong> Used strictly when you intentionally capture photos to upload student profile pictures, document verification attachments, assignment papers, or project documentation inside the portal. The camera is never accessed in the background and no silent photos are ever captured.
+                    </li>
+                    <li>
+                        <strong>Storage & Media Access (<code style="font-size:12.5px;">READ_MEDIA_IMAGES</code>, Photo Picker):</strong> Used exclusively when you browse your device files to attach coursework, certificates, or fee vouchers, or when you download hall tickets, mark sheets, and academic circulars to your device.
+                    </li>
+                    <li>
+                        <strong>Biometric Authentication (<code style="font-size:12.5px;">USE_BIOMETRIC</code>, <code style="font-size:12.5px;">USE_FINGERPRINT</code>):</strong> Provides an optional on-device app lock for privacy. Handled entirely on-device by the secure Android BiometricPrompt framework. <strong>Biometric templates NEVER leave the device's hardware Secure Enclave / TEE</strong> and are never transmitted to campus servers.
+                    </li>
+                    <li>
+                        <strong>Internet & Network State (<code style="font-size:12.5px;">INTERNET</code>, <code style="font-size:12.5px;">ACCESS_NETWORK_STATE</code>):</strong> Required to establish encrypted HTTPS communication with your campus host server, check connectivity status, and display offline recovery screens during network outages.
+                    </li>
+                </ul>
+            </article>
+
+            <!-- Section 3: Data Security & Transport Layer Encryption -->
+            <article class="section-card searchable-section">
+                <div class="section-header">
+                    <div class="section-num">3</div>
+                    <h2 class="section-title">Data Security, Encryption & Storage</h2>
+                </div>
+                <p>
+                    We implement defense-in-depth security standards to guarantee the confidentiality and integrity of your academic data:
+                </p>
+                <ul class="points-list">
+                    <li>
+                        <strong>End-to-End TLS Encryption:</strong> All network requests are strictly routed over encrypted <strong>HTTPS / TLS 1.3</strong> connections. Plain HTTP transmissions are blocked by default via Android Network Security Configuration.
+                    </li>
+                    <li>
+                        <strong>Local Sandbox Storage:</strong> Session tokens and user interface preferences are saved in private Android app sandbox storage (<code style="font-size:12.5px;">SharedPreferences</code>), inaccessible to other apps installed on your device.
+                    </li>
+                    <li>
+                        <strong>Android 15 (16 KB Alignment):</strong> Compiled with native 16 KB memory page alignment to ensure optimal memory safety, execution efficiency, and long-term operating system support.
+                    </li>
+                </ul>
+                <div class="callout-box security">
+                    <strong>Zero Plaintext Logging:</strong> No passwords, biometric credentials, or student financial records are written to Android system debug logs (<code style="font-size:12.5px;">logcat</code>) in release builds.
+                </div>
+            </article>
+
+            <!-- Section 4: Remote Maintenance & Dynamic Controls -->
+            <article class="section-card searchable-section">
+                <div class="section-header">
+                    <div class="section-num">4</div>
+                    <h2 class="section-title">Authoritative Remote Configuration & Maintenance</h2>
+                </div>
+                <p>
+                    To ensure 24/7 service transparency, the application queries an authoritative institutional config feed hosted on GitHub Pages (<code style="font-size:12.5px;">https://harishdev003.github.io/Privacy-Policy/auxiliumsuiteconfig.json</code>).
+                </p>
+                <ul class="points-list">
+                    <li>
+                        <strong>Scheduled Maintenance Broadcasts:</strong> During scheduled campus server upgrades, database updates, or term-end migrations, the application automatically displays friendly maintenance banners with estimated completion windows.
+                    </li>
+                    <li>
+                        <strong>Dynamic Domain Resolution:</strong> Enables institutional network engineers to transition backend server clusters seamlessly without requiring manual Google Play Store updates.
+                    </li>
+                    <li>
+                        <strong>Zero Private Tracking:</strong> The configuration probe sends no user identifiers, IP tracking beacons, or device telemetry.
+                    </li>
+                </ul>
+            </article>
+
+            <!-- Section 5: Third-Party SDKs & Advertising -->
+            <article class="section-card searchable-section">
+                <div class="section-header">
+                    <div class="section-num">5</div>
+                    <h2 class="section-title">Third-Party Tracking & Advertising Disclosures</h2>
+                </div>
+                <div class="compliance-grid">
+                    <div class="compliance-pill">
+                        <div class="compliance-pill-title">🚫 Zero Commercial Ads</div>
+                        <div class="compliance-pill-desc">The application contains NO Google AdMob, Unity Ads, Meta Audience Network, or banner advertisements.</div>
+                    </div>
+                    <div class="compliance-pill">
+                        <div class="compliance-pill-title">🛡️ Zero Data Monetization</div>
+                        <div class="compliance-pill-desc">We never sell, rent, monetize, or trade student or faculty information with commercial third parties or data brokers.</div>
+                    </div>
+                    <div class="compliance-pill">
+                        <div class="compliance-pill-title">🔒 No Behavioral Profiling</div>
+                        <div class="compliance-pill-desc">No behavioral trackers, cross-site trackers, or commercial profiling scripts are bundled within the app.</div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Section 6: User Data Rights & Account Deletion -->
+            <article class="section-card searchable-section">
+                <div class="section-header">
+                    <div class="section-num">6</div>
+                    <h2 class="section-title">User Data Rights & Account Lifecycle</h2>
+                </div>
+                <p>
+                    As an authorized institutional user, you are entitled to comprehensive data privacy rights in compliance with national and state education data protection standards (including the Indian Digital Personal Data Protection Act, DPDP 2023):
+                </p>
+                <ul class="points-list">
+                    <li>
+                        <strong>Access & Correction:</strong> You may verify or request corrections to your official academic details by contacting your respective Head of Department (HOD) or the College Controller of Examinations (COE).
+                    </li>
+                    <li>
+                        <strong>App Cache Purge:</strong> You can wipe all locally cached session cookies and credentials at any time via the in-app <em>"Clear Portal Cache"</em> button in Settings or via Android System Settings.
+                    </li>
+                    <li>
+                        <strong>Account Deactivation & Graduation:</strong> Upon student graduation, transfer, or faculty resignation, campus account lifecycles and record retention adhere to the statutory preservation schedules of Auxilium College (Autonomous).
+                    </li>
+                </ul>
+            </article>
+
+            <!-- Section 7: Contact Information -->
+            <article class="section-card searchable-section">
+                <div class="section-header">
+                    <div class="section-num">7</div>
+                    <h2 class="section-title">Institutional Contact & IT Support</h2>
+                </div>
+                <p>
+                    For technical inquiries, permission questions, or institutional compliance verification regarding <strong>Auxilium ERP Suite</strong>:
+                </p>
+
+                <div class="contact-card">
+                    <div class="contact-row">
+                        <span class="contact-icon">🏛️</span>
+                        <span class="contact-label">Institution:</span>
+                        <span class="contact-value">Auxilium College (Autonomous)</span>
+                    </div>
+                    <div class="contact-row">
+                        <span class="contact-icon">📍</span>
+                        <span class="contact-label">Address:</span>
+                        <span class="contact-value">Gandhi Nagar, Vellore - 632006, Tamil Nadu, India</span>
+                    </div>
+                    <div class="contact-row">
+                        <span class="contact-icon">💻</span>
+                        <span class="contact-label">IT Administration:</span>
+                        <span class="contact-value">Auxilium Campus IT Operations / Software Cell</span>
+                    </div>
+                    <div class="contact-row">
+                        <span class="contact-icon">✉️</span>
+                        <span class="contact-label">Support Email:</span>
+                        <span class="contact-value"><a href="mailto:harishdev003@gmail.com">harishdev003@gmail.com</a> / <a href="mailto:it-support@auxiliumcollege.edu.in">it-support@auxiliumcollege.edu.in</a></span>
+                    </div>
+                    <div class="contact-row">
+                        <span class="contact-icon">🌐</span>
+                        <span class="contact-label">Campus Portal:</span>
+                        <span class="contact-value"><a href="https://auxiliumwebsitedev.techselva.online" target="_blank" rel="noopener">https://auxiliumwebsitedev.techselva.online</a></span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- =================================================================== -->
+        <!-- TAB 2: AUXILIUM LATE ATTENDANCE (com.auxilium_suite.late_attendance) -->
+        <!-- =================================================================== -->
+        <div id="contentLate" class="tab-content">
+
+            <!-- Hero Header Card -->
+            <section class="hero-card">
+                <div class="badge-row">
+                    <span class="badge badge-primary">Official Institutional Policy</span>
+                    <span class="badge badge-success">Production Google Play Verified</span>
+                </div>
+                <h1 class="hero-title">Privacy Policy — Auxilium Late Attendance</h1>
+                <p class="hero-subtitle">
+                    Administrative barcode scanner utility for campus gate entry discipline and instant attendance record synchronization.
+                </p>
+
+                <div class="meta-grid">
+                    <div class="meta-item">
+                        Application Name:
+                        <strong>Auxilium Late Attendance</strong>
+                    </div>
+                    <div class="meta-item">
+                        Package ID:
+                        <strong>com.auxilium_suite.late_attendance</strong>
+                    </div>
+                    <div class="meta-item">
+                        Target Audience:
+                        <strong>Authorized Campus Discipline Staff</strong>
+                    </div>
+                    <div class="meta-item">
+                        Last Updated:
+                        <strong>September 2026</strong>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Search Bar -->
+            <div class="search-container">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="policySearchLate" class="search-input" placeholder="Search late attendance policy..." onkeyup="filterSections('contentLate', this.value)">
+            </div>
+
+            <!-- Section 1 -->
+            <article class="section-card searchable-section">
+                <div class="section-header">
+                    <div class="section-num">1</div>
+                    <h2 class="section-title">Introduction & Purpose</h2>
+                </div>
+                <p>
+                    <strong>Auxilium Late Attendance</strong> is an institutional mobile utility built exclusively for the authorized faculty, discipline committee members, and security personnel of <strong>Auxilium College (Autonomous)</strong>.
+                </p>
+                <p>
+                    The application replaces manual paper registers with rapid 1D/2D optical barcode scanning to record late campus entries and synchronize timestamps with the centralized student database in real time.
+                </p>
+            </article>
+
+            <!-- Section 2 -->
+            <article class="section-card searchable-section">
+                <div class="section-header">
+                    <div class="section-num">2</div>
+                    <h2 class="section-title">Camera Permission & Optical Scanning Safeguards</h2>
+                </div>
+                <p>
+                    The application requires access to device camera hardware (<code style="font-size:12.5px;">android.permission.CAMERA</code>) subject to strict privacy guardrails:
+                </p>
+                <ul class="points-list">
+                    <li><strong>Real-Time Optical Decoding:</strong> The camera feed is processed strictly in volatile device memory to read numeric barcode values from physical student identity cards.</li>
+                    <li><strong>Zero Photo Storage:</strong> The application does NOT take, save, record, or retain any photographs, gallery images, or video clips on the mobile device.</li>
+                    <li><strong>No External Media Transmission:</strong> Live camera frames never leave the smartphone and are immediately discarded once the barcode is scanned.</li>
+                </ul>
+                <div class="callout-box">
+                    <strong>Zero Photo Storage Guarantee:</strong> Your camera functions strictly as an optical scanner engine (identical to a handheld laser barcode reader).
+                </div>
+            </article>
+
+            <!-- Section 3 -->
+            <article class="section-card searchable-section">
+                <div class="section-header">
+                    <div class="section-num">3</div>
+                    <h2 class="section-title">Data Collection & Secure Transmission</h2>
+                </div>
+                <p>
+                    Only minimal academic identifiers necessary for student attendance verification are collected:
+                </p>
+                <ul class="points-list">
+                    <li><strong>Student Identifiers:</strong> Register Number, Roll Number, or Barcode ID from the student ID card.</li>
+                    <li><strong>Log Metadata:</strong> Exact timestamp of entry and the authorized discipline staff member's identifier.</li>
+                    <li><strong>Encrypted Transit:</strong> All communications between the mobile scanner and the campus servers occur strictly over TLS 1.3 / HTTPS.</li>
+                </ul>
+            </article>
+
+            <!-- Section 4 -->
+            <article class="section-card searchable-section">
+                <div class="section-header">
+                    <div class="section-num">4</div>
+                    <h2 class="section-title">Zero Third-Party Advertising & Tracking</h2>
+                </div>
+                <ul class="points-list">
+                    <li>Contains no commercial ad networks (No AdMob, Meta, or third-party ad SDKs).</li>
+                    <li>Contains no commercial analytics trackers or user profiling libraries.</li>
+                    <li>Zero student data sale or monetization under any circumstances.</li>
+                </ul>
+            </article>
+
+            <!-- Section 5 -->
+            <article class="section-card searchable-section">
+                <div class="section-header">
+                    <div class="section-num">5</div>
+                    <h2 class="section-title">Institutional Contact Information</h2>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-row">
+                        <span class="contact-icon">🏛️</span>
+                        <span class="contact-label">Institution:</span>
+                        <span class="contact-value">Auxilium College (Autonomous)</span>
+                    </div>
+                    <div class="contact-row">
+                        <span class="contact-icon">📍</span>
+                        <span class="contact-label">Address:</span>
+                        <span class="contact-value">Gandhi Nagar, Vellore - 632006, Tamil Nadu, India</span>
+                    </div>
+                    <div class="contact-row">
+                        <span class="contact-icon">✉️</span>
+                        <span class="contact-label">Support Email:</span>
+                        <span class="contact-value"><a href="mailto:harishdev003@gmail.com">harishdev003@gmail.com</a></span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p><strong>Auxilium College (Autonomous)</strong> • Gandhi Nagar, Vellore - 632006, Tamil Nadu, India</p>
+            <p>&copy; 2026 Auxilium College IT Department. All Institutional Rights Reserved.</p>
+        </footer>
+
+    </main>
+
+    <script>
+        // Tab Switcher with URL hash preservation
+        function switchApp(appName) {
+            const tabErp = document.getElementById('tabBtnErp');
+            const tabLate = document.getElementById('tabBtnLate');
+            const contentErp = document.getElementById('contentErp');
+            const contentLate = document.getElementById('contentLate');
+
+            if (appName === 'erp') {
+                tabErp.classList.add('active');
+                tabLate.classList.remove('active');
+                contentErp.classList.add('active');
+                contentLate.classList.remove('active');
+                window.location.hash = 'erp-suite';
+            } else {
+                tabLate.classList.add('active');
+                tabErp.classList.remove('active');
+                contentLate.classList.add('active');
+                contentErp.classList.remove('active');
+                window.location.hash = 'late-attendance';
+            }
+        }
+
+        // Initialize active tab from URL hash if provided
+        window.addEventListener('DOMContentLoaded', () => {
+            const hash = window.location.hash.toLowerCase();
+            if (hash.includes('late')) {
+                switchApp('late');
+            } else {
+                switchApp('erp');
+            }
+
+            // Restore theme from localStorage or system preference
+            const savedTheme = localStorage.getItem('aux_theme');
+            if (savedTheme) {
+                document.documentElement.setAttribute('data-theme', savedTheme);
+                updateThemeButton(savedTheme);
+            } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                updateThemeButton('dark');
+            }
+        });
+
+        // Theme Toggle
+        function toggleTheme() {
+            const current = document.documentElement.getAttribute('data-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('aux_theme', next);
+            updateThemeButton(next);
+        }
+
+        function updateThemeButton(theme) {
+            const btn = document.getElementById('themeToggle');
+            if (theme === 'dark') {
+                btn.innerHTML = '☀️ <span>Light</span>';
+            } else {
+                btn.innerHTML = '🌙 <span>Dark</span>';
+            }
+        }
+
+        // Live Search Filter for Sections
+        function filterSections(containerId, query) {
+            const container = document.getElementById(containerId);
+            const sections = container.getElementsByClassName('searchable-section');
+            const term = query.toLowerCase().trim();
+
+            for (let i = 0; i < sections.length; i++) {
+                const text = sections[i].innerText.toLowerCase();
+                if (term === '' || text.includes(term)) {
+                    sections[i].style.display = '';
+                } else {
+                    sections[i].style.display = 'none';
+                }
+            }
+        }
+    </script>
+</body>
+</html>
