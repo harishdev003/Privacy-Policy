@@ -1,6 +1,6 @@
 {
   "api_protocol": "https",
-  "api_domain": "https://suite.erp.auxiliumcollege.edu.in",
+  "api_domain": "suite.erp.auxiliumcollege.edu.in",
   "public_access_enabled": true,
   "maintenance_mode": false,
   "scheduled_maintenance_enabled": true,
